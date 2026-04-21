@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 public class DemoProjectEditorTarget : TargetRules
 {
-	public DemoProjectEditorTarget( TargetInfo Target) : base(Target)
+	public DemoProjectEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V6;
